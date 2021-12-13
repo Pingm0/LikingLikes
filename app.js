@@ -5,3 +5,10 @@ function like (id) {
     
     
 }
+
+function addLike (id) {
+    let currentLike = document.querySelector(id);
+    console.log(currentLike)
+    currentLike.textContent++
+
+}

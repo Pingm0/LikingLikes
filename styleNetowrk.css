@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+.header {
+    background: black;
+    color: white;
+    padding: 10px 0 10px 15px;
+}
+
+.feed {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+}
+
+.left,.comment {
+    border:1px solid black;
+}
+/* Left side */
+.left{
+    flex:1;
+}
+
+.user {
+    text-align: center;
+    padding: 20px;
+}
+
+.user p {
+    margin: 20px;
+}
+.user img{
+    height: 125px;
+    margin: 20px;
+}
+
+.right{
+    flex:2;
+    margin-left: 25px;
+}
+
+/* Right side */
+
+.comment {
+    margin-bottom: 10px;
+}
+
+.commentTop {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.commentTop button {
+    margin-left: 15px;
+    padding: 5px 15px;
+    background-color:#F9D867 ;
+    box-shadow: 5px 5px;
+}
+
+.comment p {
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+
